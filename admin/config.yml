@@ -51,7 +51,7 @@ collections:
           dateFormat: 'MMMM D, YYYY',
           timeFormat: false
         }
-      - {label: "Description", name: "country_content", widget: "markdown"}
+      - {label: "Description", name: "body", widget: "markdown"}
       - {label: "Latitude", name: "country_latitude", widget: "string"}
       - {label: "Longitude", name: "country_longitude", widget: "string"}
       - {label: "ISO Two-Letter", name: "country_iso_two", widget: "string"}
