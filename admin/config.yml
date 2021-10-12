@@ -32,3 +32,27 @@ collections:
           timeFormat: false
         }
       - {label: "Body", name: "body", widget: "markdown"}
+  - label: Countries
+    name: country
+    folder: _countries/
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'country'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: "Description", name: "country_content", widget: "markdown"}
+      - {label: "Latitude", name: "country_latitude", widget: "string"}
+      - {label: "Longitude", name: "country_longitude", widget: "string"}
+      - {label: "ISO Two-Letter", name: "country_iso_two", widget: "string"}
+      - {label: "ISO Three-Letter", name: "country_iso_three", widget: "string"}
