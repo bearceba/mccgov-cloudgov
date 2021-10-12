@@ -1,10 +1,11 @@
 ---
-title: Third page
 layout: post
-date: January 16, 2019
+title: Third page
 author: Benjamin Franklin
+date: January 16, 2019
 excerpt: This is an excerpt for second page
 ---
+I have added some text here.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
 
