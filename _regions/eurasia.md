@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: region
 title: Europe, Asia and the Pacific
 author: Brett
 date: November 2, 2021

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: region
 title: Africa
 author: Brett
 date: November 2, 2021
