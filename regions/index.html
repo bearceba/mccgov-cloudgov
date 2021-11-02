@@ -17,7 +17,7 @@ pagination:
   <div class="grid-row">
     <div class="desktop:grid-col-8 usa-prose padding-right-4">
       <!-- This loops through the paginated posts -->
-      {% for post in paginator.posts %}
+      {% for region in paginator.regions %}
       <div
         class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest"
       >
@@ -87,10 +87,10 @@ pagination:
       >
         <h3 class="">Most Recent Posts</h3>
         <ul class="usa-list usa-list--unstyled padding-top-2">
-          {% for post in site.posts limit:3 %}
+          {% for region in site.regions limit:3 %}
           <li class="padding-bottom-1">
             <a class="usa-link" href="{{site.baseurl}}{{post.url}}"
-              >{{ post.title }}</a
+              >{{ region.title }}</a
             >
           </li>
           {% endfor %}
