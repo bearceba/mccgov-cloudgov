@@ -3,6 +3,9 @@ layout: wide
 permalink: /region/
 pagination:
   enabled: true
+  collection: regions
+  sort_field: title
+  sort_reverse: false
 ---
 
 <div id="blog" class="bg-primary-darker usa-content font-serif-lg padding-y-6">
@@ -17,7 +20,7 @@ pagination:
   <div class="grid-row">
     <div class="desktop:grid-col-8 usa-prose padding-right-4">
       <!-- This loops through the paginated posts -->
-      {% for region in collection.regions %}
+      {% for region in paginator.regions %}
       <div
         class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest"
       >
