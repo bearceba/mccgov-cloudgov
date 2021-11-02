@@ -3,6 +3,6 @@ layout: post
 title: Africa
 author: Brett
 date: November 2, 2021
-regions_teaser: This is the teaser
+regions_teaser: This is the Africa region teaser.
 ---
-This is the page content.
+This is the Africa region page content.
