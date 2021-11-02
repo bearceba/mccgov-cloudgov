@@ -78,29 +78,25 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: Blog
+  - name: Where We Work
     url: /blog/
-  - name: Regions
+  - name: Our Impact
     url: /region/
-  - name: Countries
+  - name: Who We Select
     url: /country/
-  - name: Document
+  - name: Sectors
     url: /document/
-  - name: Document with sidenav
+  - name: Resources
     url: /document-with-sidenav/
-  - name: Document submenu
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
 
 secondary_navigation:
-  - name: Secondary link
+  - name: About
     url: "#main-content"
-  - name: Another secondary link
+  - name: News & Events
+    url: "#main-content"
+  - name: Blog
+    url: "/blog/"
+  - name: Work With Us
     url: "#main-content"
 
 # Search.gov configuration
