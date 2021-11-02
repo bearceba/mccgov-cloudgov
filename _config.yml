@@ -82,6 +82,8 @@ primary_navigation:
     url: /blog/
   - name: Regions
     url: /region/
+  - name: Countries
+    url: /country/
   - name: Document
     url: /document/
   - name: Document with sidenav
