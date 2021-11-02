@@ -40,7 +40,7 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'region'}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {
