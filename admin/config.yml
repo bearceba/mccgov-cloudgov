@@ -54,7 +54,7 @@ collections:
       - {label: "Teaser", name: "regions_teaser", widget: "string"}
       - {label: "Content", name: "body", widget: "markdown"}
   - label: Countries
-    name: country
+    name: countries
     folder: _countries/
     create: true
     slug: "{{slug}}"
