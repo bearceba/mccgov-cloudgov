@@ -10,4 +10,4 @@ country_content: This is **Mongolia**.
 country_iso_three: MNG
 country_core_rels: Europe, Asia and the Pacific
 ---
-This is the description field with some *italic text*. `<abbr title="Millennium Challenge Corporation">MCC</abbr>`
+This is the description field with some *italic text*.
