@@ -73,6 +73,7 @@ collections:
           timeFormat: false
         }
       - {label: "Description", name: "body", widget: "markdown"}
+      - {label: "Content", name: "content", widget: "code", default_language: "html"}
       - {label: "Latitude", name: "country_latitude", widget: "string"}
       - {label: "Longitude", name: "country_longitude", widget: "string"}
       - {label: "ISO Two-Letter", name: "country_iso_two", widget: "string"}
