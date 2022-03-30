@@ -3,6 +3,9 @@ layout: country
 title: Mongolia
 author: Brett
 date: October 12, 2021
+content:
+  lang: html
+  code: <p>This is the content.</p>
 country_latitude: "789"
 country_longitude: "567"
 country_iso_two: MG
