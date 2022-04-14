@@ -78,4 +78,4 @@ collections:
       - {label: "Longitude", name: "country_longitude", widget: "string"}
       - {label: "ISO Two-Letter", name: "country_iso_two", widget: "string"}
       - {label: "ISO Three-Letter", name: "country_iso_three", widget: "string"}
-      - {label: "Core Relationships", name: "country_core_rels", widget: "relation", collection: "regions", search_fields: ["title"], value_field: "title", display_fields: ["title"]}
+      - {label: "Core Relationships", name: "country_core_rels", widget: "relation", collection: "regions", multiple: "true", search_fields: ["title"], value_field: "title", display_fields: ["title"]}
