@@ -53,6 +53,48 @@ collections:
         }
       - {label: "Teaser", name: "regions_teaser", widget: "string"}
       - {label: "Content", name: "body", widget: "markdown"}
+  - label: Sectors
+    name: sectors
+    folder: _sectors/
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'sector'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: "Teaser", name: "sectors_teaser", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - label: Program Types
+    name: program_types
+    folder: _program-types/
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'program_types'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: "Teaser", name: "program_types_teaser", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
   - label: Countries
     name: countries
     folder: _countries/
