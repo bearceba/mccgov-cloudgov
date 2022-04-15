@@ -8,6 +8,14 @@ The Millennium Challenge Corporation (MCC) provides reasonable accommodations to
 
 A reasonable accommodation is any change to a job, the work environment, or the way things are usually done that enables an individual with a disability to apply for a job, perform job duties or receive equal access to job benefits.
 
+`<ol>`
+
+`<li>Item 1</li>`
+
+`<li>Item 2</li>`
+
+`</ol>`
+
 ```html
 <p>Under the Rehabilitation Act of 1973, federal agencies must provide reasonable accommodations when:</p>
 <ol>
